@@ -1,6 +1,6 @@
 # 'Fitmode'
 <hr>
-<!-- <img src = "https://github.com/topguns837/I-Spy/blob/main/assests/i-spy-banner.png"> -->
+<img src = "https://github.com/tiasaxena/Fitmode/blob/main/src/assets/Engage_Collage.png">
 <hr>
 
 ## What is 'Fitmode' ?
@@ -27,8 +27,6 @@ Fitmode is a web application made for MS Engage'22. It is a fitness app that hel
 ## Future Scope
 - Improve model accuracy
 
-- Addign more exercises
+- Adding more exercises
 
 - Gamifying the app to catch user's interest
-
-<!-- ## Demo Video  : https://www.youtube.com/watch?v=AVmq5L7erw8&list=LL&index=3 -->

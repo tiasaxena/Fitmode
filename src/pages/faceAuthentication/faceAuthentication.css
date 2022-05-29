@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.btn-faceAuth {
+    width: 40%;
+}
+
+.photo {
+    margin: 0rem 4rem;
+}
+
+.main-heading-faceAuthentication {
+    margin-top: 1.5rem;
+    text-align: center;
+    font-size: 1.4rem;
+}

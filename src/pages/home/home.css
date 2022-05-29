@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* background-image: url('../../assets/backgroundhome.svg'); */
+    background-repeat: no-repeat;
+    color: #330b3a;
+}
+
+/* .bg {
+    background-image: url('../../assets/backgroundhome.svg');
+    height: 100vh;
+    margin-top: -14rem;
+} */
+
+
+.container-home {
+    margin: 0 2rem;
+    text-align: center;
+    position: absolute;
+    top: 40%;
+}
+
+.home-text {
+    padding-top: 2rem;
+    font-size: 0.8rem;
+}

@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&family=Ubuntu:wght@500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('../../assets/backgroundall.svg');
+}
+
+.blob {
+    position: fixed;
+    top: 0;
+    right: 0;
+} 
+
+.container {
+    margin-top: 10rem;
+}
+
+.container .form {
+    transition: margin-left 0.18s ease;
+}
+
+.title {
+    font: 'Roboto';
+    font-size: large;
+    font-weight: bold;
+}
+
+.login-subheading {
+    font-size: larger;
+    color: #BA68C8;
+    font-family: Ubuntu;
+    font-weight: bold;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1rem 0;
+    padding: 1rem;
+}
+
+.form input {
+    width: 100%;
+    margin: 1rem 0;
+    padding: 0.5rem;
+    border-radius: 10px;
+}
+
+.form .text {
+    color: #333;
+    font-size: 14px;
+}
+
+.form a.text {
+    color: #BA68C8;
+    text-decoration: none;
+}
+
+.form .button {
+    margin-top: 10px;
+    border-radius: 50px;
+    background-color: #BA68C8;
+    color: white;
+}
+
+.text {
+    font-weight: bold;
+    text-align: center;
+    margin: 90px;
+}
+
+.signup {
+    text-align: center;
+    padding: 0 10px;
+}
+
+.text {
+    font-weight: bold;
+    text-align: center;
+    margin: auto;
+}
+
+.form .login-signup {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.form .checkbox-text {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.checkbox-text .checkbox-content {
+    display: flex;
+    align-items: center;
+}
+
+.checkbox-content input {
+    margin: 0 8px -2px 4px;
+    accent-color: #BA68C8;
+}
+
+
+@media screen and (max-width: 378px) {
+
+    .text {
+        margin: 2rem;
+    }
+}
+
+@media screen and (max-width: 427px) {
+
+    body {
+        height: 100%;
+        padding-bottom: 5rem;
+    }
+
+}

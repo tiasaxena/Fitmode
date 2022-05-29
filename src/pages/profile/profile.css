@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&family=Ubuntu:wght@500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Ubuntu';
+}
+
+.avatar {
+    margin: -1rem 9.8rem;
+}
+
+.container-profile {
+    margin: 2rem 0 2.5rem 0;
+    text-align: center;
+}
+
+.main-heading-profile {
+    font-family: 'Roboto';
+    margin-top: 1rem;
+    text-align: center;
+    font-size: 1.4rem;
+}
+
+.profile-content {
+    padding: 3.5rem 0 4rem;
+}
+
+.top-profile {
+    text-align: center;
+}
